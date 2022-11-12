@@ -1,0 +1,6 @@
+CREATE DATABASE banco_alunos;
+ CREATE TABLE tabela_alunos(
+    -> id int not null,
+    -> nome varchar(30),
+    -> turma nchar(2),
+    -> primary key(id));
